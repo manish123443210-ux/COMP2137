@@ -1,4 +1,0 @@
-Warning: The unit file, source configuration file or drop-ins of netplan-ovs-cleanup.service changed on disk. Run 'systemctl daemon-reload' to reload units.
-WARNING:root:Cannot call Open vSwitch: ovsdb-server.service is not running.
-dpkg-preconfigure: unable to re-open stdin: No such file or directory
-Host server1-mgmt not found in /home/manish/.ssh/known_hosts
