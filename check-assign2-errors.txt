@@ -1,0 +1,36 @@
+--2025-11-11 18:14:49--  https://github.com/zonzorp/COMP2137/raw/main/makecontainers.sh
+Resolving github.com (github.com)... 140.82.114.4
+Connecting to github.com (github.com)|140.82.114.4|:443... connected.
+HTTP request sent, awaiting response... 302 Found
+Location: https://raw.githubusercontent.com/zonzorp/COMP2137/main/makecontainers.sh [following]
+--2025-11-11 18:14:50--  https://raw.githubusercontent.com/zonzorp/COMP2137/main/makecontainers.sh
+Resolving raw.githubusercontent.com (raw.githubusercontent.com)... 185.199.111.133, 185.199.108.133, 185.199.109.133, ...
+Connecting to raw.githubusercontent.com (raw.githubusercontent.com)|185.199.111.133|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 15594 (15K) [text/plain]
+Saving to: ‘/home/manish/makecontainers.sh’
+
+     0K .......... .....                                      100% 7.88M=0.002s
+
+2025-11-11 18:14:50 (7.88 MB/s) - ‘/home/manish/makecontainers.sh’ saved [15594/15594]
+
+Failed to connect to bus: No such file or directory
+Traceback (most recent call last):
+  File "/usr/sbin/netplan", line 23, in <module>
+    netplan.main()
+  File "/usr/share/netplan/netplan/cli/core.py", line 56, in main
+    self.run_command()
+  File "/usr/share/netplan/netplan/cli/utils.py", line 243, in run_command
+    self.func()
+  File "/usr/share/netplan/netplan/cli/commands/apply.py", line 63, in run
+    self.run_command()
+  File "/usr/share/netplan/netplan/cli/utils.py", line 243, in run_command
+    self.func()
+  File "/usr/share/netplan/netplan/cli/commands/apply.py", line 164, in command_apply
+    utils.systemctl_daemon_reload()
+  File "/usr/share/netplan/netplan/cli/utils.py", line 140, in systemctl_daemon_reload
+    subprocess.check_call(['systemctl', 'daemon-reload'])
+  File "/usr/lib/python3.10/subprocess.py", line 369, in check_call
+    raise CalledProcessError(retcode, cmd)
+subprocess.CalledProcessError: Command '['systemctl', 'daemon-reload']' returned non-zero exit status 1.
+dpkg-preconfigure: unable to re-open stdin: No such file or directory
