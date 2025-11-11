@@ -1,26 +1,0 @@
----Host/Student info----
-
-Running on Tue Nov 11 06:17:00 PM EST 2025
-Run by manish - () on host
- Static hostname: generic-VM
-      Machine ID: c852dfe72c684fb1bb36e2edddd78164
-Operating System: Ubuntu 24.04.3 LTS
-a98742121b14ebe6350c4bf8245d0062  ./check-assign2-script.sh - a98742121b14ebe6350c4bf8245d0062  -
-------------------------
-
----Start of Assignment2.sh Check------
----Running makecontainers.sh----------
-This script performs many tasks. Please be patient
-To see more about what it is doing as it does it, use the --verbose option
-You may ignore any messages about Open vSwitch or dpkg-preconfigure being unable to re-open stdin
-DO NOT use control-Z when this script is running.
-Network lan deleted
-Network mgmt deleted
-Network lan created
-Network mgmt created
-Launching openwrt
-Retrieving image: Unpack: 100% (1.82GB/s)                                          Retrieving image: Unpack: 100% (1.82GB/s)                                          Launching server1
-Retrieving image: Unpack: 100% (1.72GB/s)                                          inactive
-Pushing /home/manish/.ssh/id_ed25519.pub to /home/remoteadmin/.ssh/id_ed25519.pub: 100% (314.29MB/s)                                                                                                     Waiting for server1 restart
----Retrieving assignment2.sh script---
-Failed to retrieve assignment2.sh script using URL 'https://github.com/manish123443210-ux/COMP2137/raw/main/assignment2.sh'
