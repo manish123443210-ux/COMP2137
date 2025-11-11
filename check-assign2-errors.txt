@@ -1,21 +1,4 @@
-Failed to connect to bus: No such file or directory
-Traceback (most recent call last):
-  File "/usr/sbin/netplan", line 23, in <module>
-    netplan.main()
-  File "/usr/share/netplan/netplan/cli/core.py", line 56, in main
-    self.run_command()
-  File "/usr/share/netplan/netplan/cli/utils.py", line 243, in run_command
-    self.func()
-  File "/usr/share/netplan/netplan/cli/commands/apply.py", line 63, in run
-    self.run_command()
-  File "/usr/share/netplan/netplan/cli/utils.py", line 243, in run_command
-    self.func()
-  File "/usr/share/netplan/netplan/cli/commands/apply.py", line 164, in command_apply
-    utils.systemctl_daemon_reload()
-  File "/usr/share/netplan/netplan/cli/utils.py", line 140, in systemctl_daemon_reload
-    subprocess.check_call(['systemctl', 'daemon-reload'])
-  File "/usr/lib/python3.10/subprocess.py", line 369, in check_call
-    raise CalledProcessError(retcode, cmd)
-subprocess.CalledProcessError: Command '['systemctl', 'daemon-reload']' returned non-zero exit status 1.
+Warning: The unit file, source configuration file or drop-ins of netplan-ovs-cleanup.service changed on disk. Run 'systemctl daemon-reload' to reload units.
+WARNING:root:Cannot call Open vSwitch: ovsdb-server.service is not running.
 dpkg-preconfigure: unable to re-open stdin: No such file or directory
 Host server1-mgmt not found in /home/manish/.ssh/known_hosts

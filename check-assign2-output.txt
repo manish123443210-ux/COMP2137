@@ -1,6 +1,6 @@
 ---Host/Student info----
 
-Running on Tue Nov 11 06:15:52 PM EST 2025
+Running on Tue Nov 11 06:17:00 PM EST 2025
 Run by manish - () on host
  Static hostname: generic-VM
       Machine ID: c852dfe72c684fb1bb36e2edddd78164
@@ -19,11 +19,8 @@ Network mgmt deleted
 Network lan created
 Network mgmt created
 Launching openwrt
-Retrieving image: Unpack: 100% (1.98GB/s)                                          Retrieving image: Unpack: 100% (1.98GB/s)                                          Launching server1
-Retrieving image: Unpack: 100% (2.35GB/s)Unable to create authorization object for operation: Authorization objects of type "project" require at most 0 components to be uniquely identifiable (interrupt two more times to force)                                                                                                                                                                                          Pushing /home/manish/.ssh/id_ed25519.pub to /home/remoteadmin/.ssh/id_ed25519.pub: 100% (273.48MB/s)                                                                                                     Waiting for server1 restart
-please let the script finish
-please let the script finish
-please let the script finish
-please let the script finish
+Retrieving image: Unpack: 100% (1.82GB/s)                                          Retrieving image: Unpack: 100% (1.82GB/s)                                          Launching server1
+Retrieving image: Unpack: 100% (1.72GB/s)                                          inactive
+Pushing /home/manish/.ssh/id_ed25519.pub to /home/remoteadmin/.ssh/id_ed25519.pub: 100% (314.29MB/s)                                                                                                     Waiting for server1 restart
 ---Retrieving assignment2.sh script---
 Failed to retrieve assignment2.sh script using URL 'https://github.com/manish123443210-ux/COMP2137/raw/main/assignment2.sh'
